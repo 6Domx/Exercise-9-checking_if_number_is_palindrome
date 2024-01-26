@@ -14,6 +14,14 @@ while True:
             return True
         else:
             return False
+    
+    given_number = input("Give us a number: ")
+    if given_number.isdigit():
+        given_number = int(given_number)
 
+    else:
+        print("Invalid, input must be number.")
+        break
 
+    
 
