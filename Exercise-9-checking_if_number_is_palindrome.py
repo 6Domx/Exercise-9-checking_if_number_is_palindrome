@@ -23,5 +23,10 @@ while True:
         print("Invalid, input must be number.")
         break
 
-    
+    if given_is_palindrome(given_number):
+        print(given_number, "<- Palindrome!")
+    else:
+        print(given_number, "<- Not Palindrome!")
+        break
+
 
